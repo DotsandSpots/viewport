@@ -203,6 +203,7 @@ img{
 
 
 /* ---------- SMALL SCREEN STYLES ---------- */
+/* --------------- BEGIN SMALL SCREEN SIZES --------------- */
 @media screen and (min-width: 620px){
      header, footer{
             background-color: var(--lime-green);
@@ -230,14 +231,13 @@ img{
             width: 200px;
             max-width: 200px;
         } 
-    }
-/* --------------- BEGIN SMALL SCREEN SIZES --------------- */
-    
+    }   
 /* --------------- END SMALL SCREEN SIZES --------------- */
 
 
 
 /* ---------- MEDIUM SCREEN STYLES ---------- */
+/* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
 @media screen and (min-width: 1000px){
             header, footer{
             background-color: var(--black);
@@ -266,13 +266,13 @@ img{
             grid-row: 3/5;
         } 
     }   
-/* --------------- BEGIN MEDIUM SCREEN SIZES --------------- */
-
 /* --------------- END MEDIUM SCREEN SIZES --------------- */
 
 
 
 /* ---------- LARGE SCREEN STYLES ---------- */
+/* --------------- BEGIN LARGE SCREEN SIZES --------------- */
+ 
 @media screen and (min-width: 1380px){
          header, footer{
             background-color: var(--lime-green);
@@ -306,27 +306,26 @@ img{
         #seven, #eight{
             grid-row: 3/4;
         } 
-    }
-/* --------------- BEGIN LARGE SCREEN SIZES --------------- */
-    
+    }   
 /* --------------- END LARGE SCREEN SIZES --------------- */
 
 
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
+/* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
 @media screen and (min-width: 1380px){
     img{
         width: 300px;
         max-width: 300px;
     } 
-}
-/* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-    
+}    
 /* --------------- END RESPONSIVE IMAGE ADJUST SIZES --------------- */
 
 
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
+/* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
+    
 @media screen and (min-width: 1795px){
          header, footer{
         background-color: var(--orange);
@@ -395,6 +394,4 @@ img{
         padding-top: 2em;
     }  
 }
-/* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    
 /* --------------- END EXTRA LARGE SCREEN SIZES --------------- */
