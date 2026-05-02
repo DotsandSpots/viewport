@@ -325,7 +325,6 @@ img{
 
 /* ---------- EXTRA LARGE SCREEN STYLES ---------- */
 /* --------------- BEGIN EXTRA LARGE SCREEN SIZES --------------- */
-    
 @media screen and (min-width: 1795px){
          header, footer{
         background-color: var(--orange);
